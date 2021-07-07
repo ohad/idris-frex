@@ -31,6 +31,7 @@ modules = Frex
         , Frexlet.Monoid.Frex.Structure
         , Frexlet.Monoid.Frex.Properties
         , Frexlet.Monoid.Frex.Construction
+        , Frexlet.Monoid.Free
         , Frexlet.Monoid.Nat
         , Frexlet.Monoid.List
         , Frexlet.Monoid.Pair
@@ -71,6 +72,7 @@ modules = Frex
         , Data.Setoid.Vect.Functional
         , Data.Setoid.Vect.Inductive
         , Data.Setoid.List
+        , Data.Unit
         , Data.Vect.Extra1
 
 
