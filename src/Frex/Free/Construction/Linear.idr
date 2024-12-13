@@ -16,8 +16,6 @@ import Text.PrettyPrint.Prettyprinter
 
 %default total
 
-%hide Data.Relation.Rel
-
 namespace PresetoidAlgebra
 
   public export

@@ -2,7 +2,7 @@
 ||| Small print: the setoid's equivalence relation may not be decidable
 module Frex.Free.Construction
 
-import Data.Setoid
+import public Data.Setoid
 import Frex.Signature
 import Frex.Presentation
 import Frex.Algebra

@@ -1,10 +1,8 @@
 module Data.Relation
 
-%default total
+import public Control.Relation
 
-public export
-0 Rel : Type -> Type
-Rel a = a -> a -> Type
+%default total
 
 export infix 5 ~>
 public export

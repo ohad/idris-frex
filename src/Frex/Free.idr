@@ -4,7 +4,7 @@ module Frex.Free
 import public Frex.Free.Definition
 import public Frex.Free.Construction
 
-import Data.Setoid
+import public Data.Setoid
 import Frex.Signature
 import Frex.Presentation
 import Frex.Algebra
