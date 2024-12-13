@@ -363,7 +363,7 @@ namespace Setoid
   Cast (Algebra sig) (SetoidAlgebra sig) where
     cast a = MkSetoidAlgebra
       { algebra = a
-      , equivalence = EqualEquivalence (U a)
+      , equivalence = EqualEquivalence {a = U a}
       , congruence = \f, xs, ys, ext => cong (a.Sem f) $ vectorExtensionality _ _ ext
       }
   namespace Homomorphism
