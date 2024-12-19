@@ -16,7 +16,7 @@ import Data.Setoid.Pair
 
 public export
 Unit : Setoid
-Unit = MkSetoid Builtin.Unit (EqualEquivalence Builtin.Unit)
+Unit = MkSetoid Builtin.Unit (EqualEquivalence {a = Builtin.Unit})
 
 public export
 leftNeut : {a : Setoid} -> Pair Unit a <~> a

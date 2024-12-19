@@ -77,5 +77,5 @@ modules = Frex
         , Language.Reflection.Relation
 
 
-depends = contrib
+depends = contrib, setoid
 sourcedir = "src"
